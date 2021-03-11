@@ -6,7 +6,7 @@ int main() {
   string first;
   string last;
   float score;
-  float avg;
+  int avg;
   cout << "Please enter your ID";
   cin >> ID;
   cout << "Please enter your First Name: ";
