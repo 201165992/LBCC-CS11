@@ -7,7 +7,7 @@ int main() {
   string last;
   float score;
   int avg;
-  cout << "Please enter your ID";
+  cout << "Please enter your ID: ";
   cin >> ID;
   cout << "Please enter your First Name: ";
   cin >> first; 
@@ -35,7 +35,7 @@ int main() {
       break;
     case (60>avg):
       cout << "Average: " << avg;
-      cout << "Grade: F\nComments: \nWarning: You Are Receiving a Failing Average for CS11, CS12, and CS22!"
+      cout << "Grade: F\nComments: \nWarning: You Are Receiving a Failing Average for CS11, CS12, and CS22!";
       break;
   }
 }
